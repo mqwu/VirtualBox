@@ -1,0 +1,52 @@
+# step by step install VirtualBox
+https://askubuntu.com/questions/142549/how-to-install-ubuntu-on-virtualbox
+
+# add share folder between host and guest 
+http://helpdeskgeek.com/virtualization/virtualbox-share-folder-host-guest/
+
+# shared-folder-permissions:
+sudo adduser yourusername vboxsf
+Note: you should log out and in after doing this for the change to take effetc.
+
+# set proxy
+https://help.ubuntu.com/stable/ubuntu-help/net-proxy.html
+proxy-eu.shell.com:8080
+
+# update
+sudo apt-get update 
+
+
+
+## install softwares
+
+# install R
+https://www.r-bloggers.com/download-and-install-r-in-ubuntu/
+https://cran.rstudio.com/bin/linux/ubuntu/README.html
+https://www.datascienceriot.com/33/kris/
+
+# install R-studio
+https://askubuntu.com/questions/40779/how-do-i-install-a-deb-file-via-the-command-line
+
+1. download and install libgstreamer0.10-0_0.10.36-1.5_amd64.deb
+2. download and install libgstreamer-plugins-base0.10-0_0.10.36-2_amd64.deb
+3. download and install https://packages.ubuntu.com/zesty/amd64/libjpeg62/download
+4. Then try installing R-Studio
+
+sudo dpkg -i DEB_PACKAGE
+sudo apt-get install -f
+
+
+# install and using git
+https://www.howtoforge.com/tutorial/install-git-and-github-on-ubuntu-14.04/
+
+
+# add git credential
+$ git config credential.helper store
+$ git push http://example.com/repo.git
+Username: <type your username>
+Password: <type your password>
+
+
+# superset
+http://airbnb.io/superset/installation.html
+
