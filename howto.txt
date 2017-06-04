@@ -39,6 +39,24 @@ sudo apt-get install -f
 # install and using git
 https://www.howtoforge.com/tutorial/install-git-and-github-on-ubuntu-14.04/
 
+1. Create local dir
+git init project-A
+
+2. Add files
+cd project-A
+vi README
+git add *
+
+3. Commit
+git commit -m "xxx"
+
+4. Creat a repo on Github with same folder name and connect
+git remote add origin https://github.com/user_name/project-A.git
+
+5. push the local repository contents into the remote host repository 
+git push origin master
+
+
 
 # add git credential
 $ git config credential.helper store
