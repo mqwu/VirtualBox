@@ -68,3 +68,7 @@ Password: <type your password>
 # superset
 http://airbnb.io/superset/installation.html
 
+# add vi syntax
+sudo apt-get install vim-gui-common
+sudo apt-get install vim-runtime
+
