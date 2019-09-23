@@ -8,9 +8,7 @@ http://helpdeskgeek.com/virtualization/virtualbox-share-folder-host-guest/
 sudo adduser yourusername vboxsf
 Note: you should log out and in after doing this for the change to take effetc.
 
-# set proxy
-https://help.ubuntu.com/stable/ubuntu-help/net-proxy.html
-proxy-eu.shell.com:8080
+
 
 # update
 sudo apt-get update 
